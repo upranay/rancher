@@ -35,7 +35,7 @@ ENV S6_SERVICE_DIR /service
 
 COPY target/*static.tar.gz /s6-statics/
 
-EXPOSE 8080
+EXPOSE 8081
 ENV CATTLE_HOST_API_PROXY_MODE embedded
 
 # Environment variables commonly updated when performing a release
